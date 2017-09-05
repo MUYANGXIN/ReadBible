@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="10道"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20道"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="40道"
+
+        android:textSize="30dp" />
+
+</LinearLayout>

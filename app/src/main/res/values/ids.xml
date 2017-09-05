@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><!--这个文件是用来支持recycleView点击事件的-->
+<resources>
+    <item name="item_click_support" type="id" />
+</resources>

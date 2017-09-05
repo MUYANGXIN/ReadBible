@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="?attr/Background7">
+
+    <Button
+        android:id="@+id/titlebar_caidan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/titlebar_text"
+        android:layout_height="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:text="圣经知识游戏"
+        android:textColor="?attr/Background8"
+        android:background="?attr/Background7"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/titlebar_dujing"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/dujing"
+        android:text=" "
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary" />
+
+
+</LinearLayout>

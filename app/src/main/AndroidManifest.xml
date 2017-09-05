@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shujuku">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bible"
+        android:label="圣经知识"
+        android:roundIcon="@drawable/bible"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.Activity.Main_ac"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.Activity.ZhuCe_ac" />
+        <activity
+            android:name="com.example.Activity.Main2_ac"
+            android:label="圣经游戏"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.Activity.Main2_ShuZiTi_dianji_ac"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.Title.Title_Main" />
+        <activity
+            android:name="com.example.Activity.ErrorShuZi_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.Fav_One_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.Fav_Two_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.Hestory_One_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.Hestory_Two_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.Settings_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.FanKui_ac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.ReadBible_menu_ac"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.Activity.ReadBible_Main_ac" />
+        <activity android:name="com.example.Activity.ReadBible_Search_ac"></activity>
+    </application>
+
+</manifest>

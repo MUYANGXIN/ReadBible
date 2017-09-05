@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textColorFirst" format="color" />
+    <attr name="buttonColorFirst" format="color" />
+
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleBackgroundColor" format="color" />
+    <attr name="radioGroupBkgdColor1" format="color" />
+    <attr name="radioGroupBkgdColor2" format="color" />
+    <attr name="radioGroupTextColor1" format="color" />
+    <attr name="radioGroupTextColor2" format="color" />
+
+    <attr name="Background1" format="color" />
+    <attr name="Background2" format="color" />
+    <attr name="Background3" format="color" />
+    <attr name="Background4" format="color" />
+    <attr name="Background5" format="color" />
+    <attr name="Background6" format="color" />
+    <attr name="Background7" format="color" />
+    <attr name="Background8" format="color" />
+    <attr name="Background9" format="color" />
+    <attr name="Background0" format="color" />
+
+    <attr name="TextColor1" format="color" />
+    <attr name="TextColor2" format="color" />
+    <attr name="TextColor3" format="color" />
+    <attr name="TextColor4" format="color" />
+    <attr name="TextColor5" format="color" />
+    <attr name="TextColor6" format="color" />
+
+    <attr name="Photo1" format="color" />
+    <attr name="Photo2" format="color" />
+    <attr name="Photo3" format="color" />
+    <attr name="Photo4" format="color" />
+    <attr name="Photo5" format="color" />
+    <attr name="Photo6" format="color" />
+    <attr name="Photo7" format="color" />
+    <attr name="Photo8" format="color" />
+    <attr name="Photo9" format="color" />
+
+    <attr name="text" format="string" />
+</resources>

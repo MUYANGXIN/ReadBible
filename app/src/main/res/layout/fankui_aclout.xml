@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/android:windowBackground"
+    tools:context="com.example.Activity.FanKui_ac">
+
+    <TextView
+        android:id="@+id/text_fankui1"
+        android:text="qq:\n1011266458"
+        android:textSize="18sp"
+        android:textIsSelectable="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:id="@+id/text_fankui2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="邮箱:\n1011266458@qq.com"
+        android:textSize="18sp"
+        android:textIsSelectable="true"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:id="@+id/text_fankui3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ群：\n271319200"
+        android:textSize="18sp"
+        android:textIsSelectable="true"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:id="@+id/text_fankui4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:text="平安！小信刚刚学习安卓，拿这个APP来练练手，也希望对你有帮助哦！同时迫切希望你能提出宝贵的建议,功能、风格、内容大大小小都可以哈！祝福~"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_fankui3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="end"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:text="by牧羊信"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/text_fankui5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:text="温馨提示：加我QQ好友时请注明“圣经知识”\n长按可复制"
+        android:textSize="10sp" />
+</LinearLayout>

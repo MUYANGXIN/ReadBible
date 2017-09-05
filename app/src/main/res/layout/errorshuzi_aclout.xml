@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <com.example.Title.Title_ErrorQue
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </com.example.Title.Title_ErrorQue>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_que2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="问:牧羊信是谁？"
+                android:textColor="?attr/TextColor3"
+                android:background="?attr/Background3"
+                android:textSize="26sp"
+
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/mRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+
+                <!--四个选项-->
+
+                <RadioButton
+                    android:id="@+id/RadioA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/radioGroupBkgdColor1"
+                    android:textSize="23dp"
+                    android:text="大帅哥" />
+
+                <RadioButton
+                    android:id="@+id/RadioB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="?attr/radioGroupBkgdColor2"
+                    android:textSize="23dp"
+                    android:text="小帅哥" />
+
+                <RadioButton
+                    android:id="@+id/RadioC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="?attr/radioGroupBkgdColor1"
+                    android:textSize="23dp"
+                    android:text="帅哥" />
+
+                <RadioButton
+                    android:id="@+id/RadioD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="?attr/radioGroupBkgdColor2"
+                    android:textSize="23dp"
+                    android:text="ABC选项都对" />
+
+                <!--正确答案，默认是隐藏的-->
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/tv_explain2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="正确答案：肯定选D呀！"
+
+                    android:background="?attr/Background2"
+                    android:textSize="18sp" />
+                <!--android:textColor="?attr/TextColor2"-->
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <!--切换题目-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:textColor="?attr/TextColor1"
+            android:background="?attr/Background1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="上一题"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_muqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="?attr/TextColor1"
+            android:background="?attr/Background1"
+            android:text="10"
+
+            android:textSize="33dp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:textColor="?attr/TextColor1"
+            android:background="?attr/Background1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="下一题"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

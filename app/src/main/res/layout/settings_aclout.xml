@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.Title.Title_Main
+        android:id="@+id/title_mainSet"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </com.example.Title.Title_Main>
+
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_voice"-->
+    <!--android:layout_marginTop="51dp"-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:textSize="25dp"-->
+    <!--android:text="音效"-->
+    <!--android:textColor="?attr/textColorFirst"-->
+    <!--android:background="?attr/buttonColorFirst"-->
+    <!--/>-->
+
+    <Button
+        android:id="@+id/btn_mode"
+        android:layout_marginTop="51dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:text="?attr/text"
+        android:textColor="?attr/textColorFirst"
+        android:background="?attr/buttonColorFirst" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btton_zhuce"-->
+    <!--android:layout_marginTop="51dp"-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:textSize="25dp"-->
+    <!--android:text="历史记录"-->
+    <!--android:textColor="?attr/textColorFirst"-->
+    <!--android:background="?attr/buttonColorFirst"-->
+    <!--/>-->
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

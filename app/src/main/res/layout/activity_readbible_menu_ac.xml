@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout_biblemenu"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+
+        android:background="?attr/titleBackgroundColor"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:layout_width="match_parent"-->
+
+            <!--/>-->
+            <!--app:layout_scrollFlags="scroll|enterAlways|snap"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <com.example.Title.Title_Main
+                android:id="@+id/title_bar_biblemenu"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+            </com.example.Title.Title_Main>
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_biblemenu"
+            android:layout_marginTop="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/kapian_view_biblemenu"-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+            <!--/>-->
+
+            <android.support.v4.view.PagerTabStrip
+                android:id="@+id/tabstrip_biblemenu"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:gravity="center" />
+        </android.support.v4.view.ViewPager>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

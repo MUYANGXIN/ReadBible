@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <style name="ActionTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar
+        </item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title.Own
+        </item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title.Own" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#66CC00</item>
+    </style>
+
+    <!--&lt;!&ndash;<&#45;&#45;蓝色主题&ndash;&gt;&ndash;&gt;-->
+    <!--<style name="Blue">-->
+    <!--<item name="pageBackground">@style/page_background_bl</item>-->
+    <!--<item name="pagePaddingLayout">@style/page_padding_layout_bl</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<&#45;&#45;白色主题&ndash;&gt;&ndash;&gt;-->
+    <!--<style name="White">-->
+    <!--<item name="pageBackground">@style/page_background_wh</item>-->
+    <!--<item name="pagePaddingLayout">@style/page_padding_layout_wh</item>-->
+    <!--</style>-->
+    <style name="MyTheme" parent="android:Theme.Black">
+
+        <item name="android:textViewStyle">@color/blue</item>
+        <item name="android:windowBackground">@color/pink</item>
+
+    </style>
+
+    <style name="MyTheme2" parent="@android:style/Widget.ListView">
+
+        <item name="android:actionButtonStyle">@color/black</item>
+        <item name="android:textViewStyle">@color/red</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/saddlebrown</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorBackground">@color/red</item>
+    </style>
+
+
+    <style name="DayTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="textColorFirst">@color/pink</item>
+        <item name="buttonColorFirst">@color/white</item>
+
+        <item name="titleTextColor">@color/blue</item>
+        <item name="titleBackgroundColor">@color/white</item>
+        <item name="radioGroupBkgdColor1">@color/gainsboro</item>
+        <item name="radioGroupBkgdColor2">@color/aquamarine</item>
+        <item name="radioGroupTextColor1">@color/black</item>
+        <item name="radioGroupTextColor2">@color/black</item>
+
+        <item name="Background1">@color/gainsboro</item>
+        <item name="Background2">@color/white</item>
+        <item name="Background3">@color/white</item>
+        <item name="Background4">@color/pink</item>
+        <item name="Background5">@color/white</item>
+        <item name="Background6">@color/white</item>
+        <item name="Background7">@color/blue</item>
+        <item name="Background8">@color/white</item>
+        <item name="Background9">@color/gainsboro</item>
+        <item name="Background0">@color/gainsboro</item>
+
+        <item name="TextColor1">@color/red</item>
+        <item name="TextColor2">@color/darkred</item>
+        <item name="TextColor3">@color/red</item>
+        <item name="TextColor4">@color/red</item>
+        <item name="TextColor5">@color/red</item>
+        <item name="TextColor6">@color/red</item>
+
+
+        <item name="Photo1">@drawable/fanhui</item>
+        <item name="Photo2">@drawable/fanhui</item>
+        <item name="Photo3">@drawable/fanhui</item>
+        <item name="Photo4">@drawable/fanhui</item>
+        <item name="Photo5">@drawable/fanhui</item>
+        <item name="Photo6">@drawable/fanhui</item>
+        <item name="Photo7">@drawable/fanhui</item>
+        <item name="Photo8">@drawable/fanhui</item>
+        <item name="Photo9">@drawable/fanhui</item>
+
+        <item name="text">白天模式</item>
+
+
+    </style>
+
+    <!--夜间主题-->
+    <style name="NightTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/saddlebrown</item>
+        <item name="textColorFirst">@color/black</item>
+        <item name="buttonColorFirst">@color/maroon</item>
+        Z
+
+        <item name="titleTextColor">@color/black</item>
+        <item name="titleBackgroundColor">@color/saddlebrown</item>
+        <item name="radioGroupBkgdColor1">@color/darkgrey</item>
+        <item name="radioGroupBkgdColor2">@color/darkseagreen</item>
+        <item name="radioGroupTextColor1">@color/black</item>
+        <item name="radioGroupTextColor2">@color/black</item>
+
+        <item name="Background1">@color/darkseagreen</item>
+        <item name="Background2">@color/saddlebrown</item>
+        <item name="Background3">@color/saddlebrown</item>
+        <item name="Background4">@color/darkkhaki</item>
+        <item name="Background5">@color/saddlebrown</item>
+        <item name="Background6">@color/darkseagreen</item>
+        <item name="Background7">@color/gray</item>
+        <item name="Background8">@color/gainsboro</item>
+        <item name="Background9">@color/gainsboro</item>
+        <item name="Background0">@color/gainsboro</item>
+
+        <item name="TextColor1">@color/saddlebrown</item>
+        <item name="TextColor2">@color/forestgreen</item>
+        <item name="TextColor3">@color/black</item>
+        <item name="TextColor4">@color/red</item>
+        <item name="TextColor5">@color/red</item>
+        <item name="TextColor6">@color/red</item>
+
+
+        <item name="Photo1">@drawable/fanhui2</item>
+        <item name="Photo2">@drawable/fanhui</item>
+        <item name="Photo3">@drawable/fanhui</item>
+        <item name="Photo4">@drawable/fanhui</item>
+        <item name="Photo5">@drawable/fanhui</item>
+        <item name="Photo6">@drawable/fanhui</item>
+        <item name="Photo7">@drawable/fanhui</item>
+        <item name="Photo8">@drawable/fanhui</item>
+        <item name="Photo9">@drawable/fanhui</item>
+
+        <item name="text">夜间模式</item>
+
+    </style>
+
+
+</resources>

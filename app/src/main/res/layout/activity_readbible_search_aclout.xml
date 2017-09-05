@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <com.example.Adapter.Adp_ReadBibleSearch_SearchView_SearchView_Adp
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></com.example.Adapter.Adp_ReadBibleSearch_SearchView_SearchView_Adp>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/search_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>
